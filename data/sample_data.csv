@@ -1,0 +1,29 @@
+fatigue,irregular_cycle,weight_gain,hair_loss,mood_swings,risk_level
+1,1,1,1,1,High
+1,1,1,0,1,High
+1,1,0,1,1,High
+0,1,1,1,1,High
+1,1,1,1,0,High
+
+1,1,0,0,1,Medium
+0,1,1,0,1,Medium
+1,0,1,1,0,Medium
+0,1,0,1,1,Medium
+1,0,1,0,1,Medium
+0,0,1,1,0,Medium
+1,1,0,1,0,Medium
+
+1,0,0,0,0,Low
+0,0,0,1,0,Low
+0,0,1,0,0,Low
+0,0,0,0,1,Low
+0,1,0,0,0,Low
+
+Columns meaning:
+1 → symptom present
+0 → symptom absent
+
+Risk logic (simple & explainable):
+High Risk → multiple symptoms together
+Medium Risk → 2–3 moderate symptoms
+Low Risk → isolated or mild symptoms
