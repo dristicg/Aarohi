@@ -28,5 +28,3 @@ The system consists of:
 - Bias mitigation strategies considered
 - AI outputs are explainable and advisory, not diagnostic
 
-## Note
-This repository represents a conceptual and prototype-level implementation created for hackathon ideation purposes.
